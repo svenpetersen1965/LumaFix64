@@ -1,0 +1,36 @@
+      
+   
+       Board: LumaFix64 v1.1sp (e5frog & http://www.lemon64.com)
+       Rev.:  1.2
+  
+       Files:
+       ======
+  
+       All Gerber files are generated in extended gerber format (RS274X)
+       *.TOP        : Film top copper
+       *.BOT        :  -"- bottom copper
+       *.STC        :  -"- top soldermask 
+       *.STS        :  -"- bottom soldermask
+       *.CRC        :  -"- cream top
+       *.PLC        :  -"- silk screen top
+       *.PLS        :  -"- silk screen bottom
+       *.DK         : Drills plated Through (Excellon)
+       *.NDK        : Drills not plated Through (Excellon)
+       *.OUT        : Board outline
+       
+  
+       Board Size:
+       ===========
+       Length     :   50.75 mm
+       Width      :   25.94 mm
+       Thickness  :   1.6 mm
+       Material   :   FR 4
+       Copper     :   35 um
+       Surface    :   HASL
+       
+       Remarks:
+       ========
+       Drills not plated Through do not exsist on this board.
+       drills >= 0.35mm
+       width >= 8mil
+       distance >= 6mil
